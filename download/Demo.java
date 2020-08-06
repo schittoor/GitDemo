@@ -26,6 +26,6 @@ while (Q.next())
 {
 driver.findElement(By.id("username")).sendKeys(Q.getString("FirstName"));
 }
-			
+	System.out.println("successfully completed");		
 }
 }
